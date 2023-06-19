@@ -20,7 +20,7 @@ public:
 	int getX() const;
 	int getY() const;
 
-    coordinate& getRandomCoordinate();
+    coordinate& getRandom();
 
 	coordinate& operator=(const coordinate& v);
 	coordinate& operator+=(const coordinate& v);
