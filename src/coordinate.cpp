@@ -9,7 +9,7 @@ void coordinate::setX(int x){this->x = x;}
 int coordinate::getY() const {return this->y;}
 int coordinate::getX() const {return this->x;}
 
-coordinate& coordinate::getRandomCoordinate()
+coordinate& coordinate::getRandom()
 {
 	srand(time(NULL));
     this->y = rand() % 19 + 1;
