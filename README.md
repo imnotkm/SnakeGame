@@ -75,7 +75,7 @@
 cd addrress_of_directory
 ```
 
-    ex) cd /Users/Desktop
+    ex) cd Users/Desktop
 
 2. 다음과 같은 명령어를 입력한다
 
@@ -91,7 +91,7 @@ git clone https://github.com/imnotkm/SnakeGame
 cd address_of_SnakeGame
 ```
 
-    ex) cd /Users/Desktop/SnakeGame
+    ex) cd Users/Desktop/SnakeGame
 
 2. 컴파일
 
