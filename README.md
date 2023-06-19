@@ -91,7 +91,7 @@ git clone https://github.com/imnotkm/SnakeGame
 cd address_of_SnakeGame
 ```
 
-    ex) cd Users/Desktop/SnakeGame
+    ex) cd SnakeGame
 
 2. 컴파일
 
