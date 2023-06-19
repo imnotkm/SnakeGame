@@ -135,7 +135,7 @@ void Snake::enterGate(coordinate gate)
 	else
 	{
 		tmp = gate + direction;
-		if(map[level - 1][tmp.getY()][tmp.getX() == 0]) {}
+		if(map[level - 1][tmp.getY()][tmp.getX()] == 0) {}
 		else
 		{
 			for(int i = 0; i < 4; i++)
