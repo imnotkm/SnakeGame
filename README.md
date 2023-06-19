@@ -1,7 +1,7 @@
 # Snake Game
 
 
-<h2>프로젝트 소개</h2>
+<h1>프로젝트 소개</h1>
 
 본 프로그램은 국민대학교 C++ 프로그래밍 과목의 팀 프로젝트 과제를 수행한 결과물입니다.
 
@@ -70,6 +70,33 @@ G: 뱀은 두 관문 모두 진입할 수 있습니다. 하나의 관문으로 �
 -: 독 아이템, 획득 시 뱀의 길이가 줄어듭니다.
 ```
 
-<h2>게임 설치 방법</h2>
+<h1>게임 설치 및 실행</h1>
 
+<h2>게임 설치</h2>
+1. 게임을 설치할 디렉토리로 이동 
+```
+cd addrress_of_directory
+ex) cd /Users/Desktop
+```
 
+2. 다음과 같은 명령어를 입력한다.
+```
+git clone https://github.com/imnotkm/SnakeGame
+```
+<h2>게임 실행</h2>
+1. 게임을 설치한 디렉토리로 이동
+
+```
+cd address_of_SnakeGame
+ex) cd /Users/Desktop/SnakeGame
+```
+
+2. 컴파일
+```
+make run
+```
+
+3. executable file(.exe) 실행
+```
+./play
+```
