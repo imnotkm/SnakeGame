@@ -146,27 +146,27 @@ int noticeChangeLevel(float y, float x, int level)
 }
 bool nextLevel(Snake& snake)
 {
-  if((mission_B == 'O') && (mission_gate == 'O') && (mission_growth == 'O') && (mission_poison == 'O'))
-  {
-	snake.init();
-	if(snake.getLevel() == 6)
+	if((mission_B == 'O') && (mission_gate == 'O') && (mission_growth == 'O') && (mission_poison == 'O'))
 	{
-		snake.setEnd(true);
-		snake.setCause("ALL CLEAR");
-
-		return false;
+		snake.init();
+		if(snake.getLevel() == 6)
+		{
+			snake.setEnd(true);
+			snake.setCause("ALL CLEAR");
+		
+			return false;
+		}
+		snake.initGameMap();
+		
+		mission_B = 'X'; 
+		mission_growth = 'X';
+		mission_poison = 'X';
+		mission_gate = 'X';
+		if(noticeChangeLevel(0, 0, snake.getLevel()) == KEY_ENTER) {};
+		
+		return true;
 	}
-	snake.initGameMap();
-
-    mission_B = 'X'; 
-    mission_growth = 'X';
-    mission_poison = 'X';
-    mission_gate = 'X';
-	if(noticeChangeLevel(0, 0, snake.getLevel()) == KEY_ENTER) {};
-
-	return true;
-  }
-  return false;
+	return false;
 }
 
 
